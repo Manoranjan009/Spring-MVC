@@ -11,7 +11,7 @@ public class DBconnection {
 	    static {
 	        dataSource = new BasicDataSource();
 	        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://localhost:3306/cgliadb");
+	        dataSource.setUrl("jdbc:mysql://localhost:3306/cglia");
 	        dataSource.setUsername("root");
 	        dataSource.setPassword("root");
 	    }
